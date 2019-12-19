@@ -34,14 +34,14 @@ module.exports = {
         // sidebarDepth: 2,
         sidebar: [
             {
-                title: 'Group 1',   // 必要的
+                title: 'HTML与CSS前端知识点',   // 必要的
                 children: [
                     '/css/',
                     '/css/css01'
                 ]
             },
             {
-                title: 'Group 2',
+                title: 'js',
                 children: [
                     '/javascript/',
                     '/javascript/js01'
