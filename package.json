@@ -2,12 +2,17 @@
   "devDependencies": {
     "vuepress": "^1.2.0"
   },
-  "name": "xueBlog",
+  "name": "documents",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuech/documents.git"
   }
 }
