@@ -4,7 +4,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/img/vue.png' }]
     ],
-    base: '/vuepressBlog/',
+    base: '/documents/',
     themeConfig: {
         logo: '/img/favicon.png',
         nav: [
@@ -28,8 +28,7 @@ module.exports = {
                         ]
                     },
                 ]
-            },
-            { text: 'Google', link: 'https://google.com' },
+            }
 
         ],
         // sidebarDepth: 2,
